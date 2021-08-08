@@ -1,0 +1,27 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+sfr-backend
+
+# misc
+.env
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+*.log
+
+*.idea
+*.vscode
+mocks/
+swagger.yaml
+# Dependency directories (remove the comment below to include it)
+vendor/
+
+# Mock directory
+mock/
